@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:rgb(255, 255, 255);
+}
+
+/* ---------- Navbar ---------- */
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    padding:10px 30px;
+}
+
+.container ul{
+    display:flex;
+    width:300px;
+    list-style:none;
+    justify-content:space-evenly;
+}
+
+a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+a:hover{
+    color:purple;
+}
+
+a:active{
+    color:orange;
+}
+
+a:visited{
+    color:rgb(193,220,231);
+}
+
+/* ---------- Hero ---------- */
+
+.main-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    font-size:20px;
+    margin:40px 0;
+}
+
+.main-container ul{
+    list-style:none;
+}
+
+button{
+    color:white;
+    background:rgb(24,14,165);
+    border:none;
+    border-radius:5px;
+    font-size:inherit;
+    padding:15px 25px;
+    cursor:pointer;
+}
+
+/* ---------- Products ---------- */
+
+.product1{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin:40px;
+}
+
+/* ---------- Individual Card ---------- */
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.caption{
+    margin:15px 0;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.stars{
+    letter-spacing:3px;
+    font-size:20px;
+}
+
+.price{
+    font-size:28px;
+    font-weight:bold;
+}
+footer{
+    background:black;
+    color:white;
+}
+
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.footer{
+    justify-content:space-evenly;
+}
+
+.contact{
+    display:flex;
+    align-items:center;
+}
+.footer .social{
+    display:flex;
+}
+.copyright{
+    text-align:center;
+}
+

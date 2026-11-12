@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* h1{
+    width:50%;
+    border:2px dashed red;
+    font-size:34px;
+    padding:0.5em;
+} */
+
+.container{
+    border-width:2px;
+    border-style:dotted;
+    border-color:red;
+    font-size:1.5rem;
+    padding:0.5em;
+    margin: 20px 30px;
+
+}
+.circle{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    border-radius:100px;
+    outline:5px solid rgb(130, 10, 10);
+    outline-offset: 5px;
+    margin:3rem;
+
+}

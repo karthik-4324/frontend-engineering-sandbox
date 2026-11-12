@@ -1,0 +1,20 @@
+
+.block{
+    width:20vw;
+    height:20vh;
+    background: #000;
+    color:whitesmoke;
+    padding:20px;
+
+}
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}

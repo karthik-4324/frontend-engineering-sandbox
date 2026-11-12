@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    background:rgb(102, 102, 160);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:2rem
+}
+a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}

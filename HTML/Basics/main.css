@@ -1,0 +1,31 @@
+ html{
+    
+    font-size:15px;
+    background:rgb(213, 229, 235);
+    
+    }
+p{
+    color:white;
+    background-color:rgb(41, 41, 67);
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+a:link{
+    color:rgb(165, 30, 15);
+}
+
+a:visited{
+    color:rgba(13, 82, 114, 0.479);
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:red;
+}
+h1{
+    color:white;
+    padding:5px;
+    background-color:rgb(5, 5, 57);
+}

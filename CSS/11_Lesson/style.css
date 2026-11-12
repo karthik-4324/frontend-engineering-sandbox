@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    margin: 10px;
+}
+.block{
+    background:black;
+    color:white;
+    width:20vw;
+    height:20vh;
+}
+.left{
+    float:left;
+    margin-right:10px;
+}
+.right{
+    float:right;
+    margin-left:10px;
+}
+/* .clear{
+    clear:left;
+} */
+.root{
+     background:rgb(230, 210, 193);
+     display:flow-root;
+
+}
+p{
+    line-height:2;
+    text-decoration: solid;
+
+}

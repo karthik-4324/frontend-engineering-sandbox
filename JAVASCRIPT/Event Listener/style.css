@@ -1,0 +1,27 @@
+
+
+body{
+    border:2px solid #333;
+}
+
+.container{
+    width:80%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:10%;
+    padding-right:10px;
+
+}
+
+button{
+    height:70px;
+    width:1000px;
+
+}
+
+.but{
+    background:red;
+}
+

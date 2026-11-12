@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="karthik">
+        <meta name="description" content="this page contains the html5 from basics">
+        <title>My First Page</title>
+        <link rel="icon" href="html.png" type="image/x-icon">
+        <link rel="stylesheet" href="first.css" type="text/css">
+
+    </head>
+    <body>
+        <header>
+        <h1>My Goals for the year</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html" >learning html</a>
+                </li>
+                <li>
+                <a href="#schedule">Schedule</a>
+                </li>
+                <li>
+                <a href="#vacation">Vacation</a>
+                </li>
+                <li>
+                    <a href="#intrests">Contacts & Intrests</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <hr>
+
+        <main>
+        <article id="html">
+        <h2>Im ready to Learn Html</h2>
+        <p>this is my first web page</p>
+        <article>
+            <h3>html5</h3>
+        <img src="html.png" alt="html5 Logo" title="im learning html5" width="250">
+        <figure>
+            <figcaption>
+                <p>an example of html </p>
+                <code>&lt;h1&gt;Hello&lt;h1&gt;</code>
+            </figcaption>
+        </figure>
+        </article>
+        <hr>
+        </article>
+        <article id="schedule">
+        <h3>my daily Schedule</h3>
+        <ol>
+            <li>im learning html</li>
+            <li>im learning js</li>
+            <li>solving dsa problem 1 per day</li>
+        </ol>
+        <aside>
+            <details>
+            <summary>Guess the <mark>how may hours</mark> i code per day </summary>
+            <p>i start at <time datetime="08:00">8 am</time> and i do code for <time datetime="PT3H">3 hours</time></p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <!-- <th scope="cpl">Day/Night</th> -->
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">morning</th>
+                <td><time datetime="08:00">8 am</time>-<time datetime="09:00">9 am</time></td>
+                <td>Ready up & BreakFast</td>
+            </tr>
+             <tr>
+                 <th scope="row">morning</th>
+                <td><time datetime="09:00">9 am</time>-<time datetime="11:00">11 am</time></td>
+                <td>Code</td>
+            </tr>
+             <tr>
+                 <th scope="row">morning</th>
+                <td><time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time></td>
+                <td>Rest</td>
+            </tr>
+             <tr>
+                 <th scope="row">afternoon</th>
+                <td><time datetime="12:00">12 pm</time>-<time datetime="13:00">1 pm</time></td>
+                <td>Lunch</td>
+            </tr>
+             <tr>
+                <th scope="row">afternoon</th>
+                <td><time datetime="14:00">2 pm</time>-<time datetime="16:00">4 am</time></td>
+                <td>code</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td  colspan="3">This is my Schedule</td>
+                </tr>
+            </tfoot>
+        </table>
+        </article>
+        <hr>
+
+
+
+        <article id="vacation">
+        <h2>Im Also Plannning a Vacation</h2>
+        <h3>I Wanted to go These Places</h3>
+        <ol>
+            <li>
+                <h3>I Love Pirates of the Carribean So I Wanted to go to Carribean</h3>
+                <img src="carribean.jpg" alt="carribean" width="250">
+                <figure>
+                    <figcaption>
+                        <p>The Great Carribean Islands</p>
+                    </figcaption>
+                </figure>
+
+            </li>
+            <li>
+                <h4>I Wanted to go to Japan </h4>
+                <img src="fuji.jpg" alt="Mount Fuji" width="250">
+                <figure>
+                    <figcaption>
+                        <p>Bueatiful Mount Fuzi</p>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+
+                <h5>I wated to go to hiking</h5>
+                <h5>I wanted got to kashmir</h5>
+                <h5>I wanted to go to russia yakust</h5>
+                <img src="hiking.jpg" alt="Hiking image" width="250" loading="lazy">
+                <figure>
+                    <figcaption>
+                        <p>hiking</p>
+                    </figcaption>
+                </figure>
+            </li>
+        </ol>
+        <h3>Places I Dont Want to Visit</h3>
+        <ul>
+            <li>
+                <h4>Pakistan</h4>
+                <p>i heard there are lot of terrorists</p>
+            </li>
+            <li>
+                <h4>USA</h4>
+                <p>everyone has a weapon</p>
+            </li>
+        </ul>
+        </article>
+        <article id="intrests">
+            <h2>Contacts & Intrests</h2>
+            <p>here are my presonal info</p>
+            <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>My Personal Info</legend>
+
+                    <p>
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" autocomplete="on" autofocus required>
+                    </p>
+                    <p>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="PhoneNumber" required>
+                    </p>
+                    <p>
+                        <label for="decade">Favourite Decade</label>
+                        <input type="number" id="decade" name="decade" min="1990" max="2026" value="2015" step="10">
+                    </p>
+            </fieldset>
+            <fieldset>
+                <legend>Favourite Tea</legend>
+                    <p>
+                        <label for="tea">tea</label>
+                        <select name="tea" id="tea">
+                            <optgroup label="Best Tea">
+                            <option value="regularTea">Regular Tea</option>
+                            <option value="AllamTea">Allam Tea</option>
+                            <option value="LemonTea">Lemon Tea</option>
+                            </optgroup>
+                            <optgroup label="tea">
+                            <option value="BaadhamTea">Baadham Tea</option>
+                            </optgroup>
+                            <option value="Others">Others</option>
+                        </select>
+                    </p>
+            </fieldset>
+        </article>
+        <article>
+            <fieldset>
+                <legend>
+                    What is your Favourite food
+                </legend>
+                <p>
+                    <input type="radio" name="food" id="biryani" value="Biryani">
+                    <label for="biryani">Biryani</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="paneer" value="paneer">
+                    <label for="paneer">Paneer</label>
+                </p>
+                <p>
+                    <input type="radio" name="Mashroom" id="mashroom" value="mashroom">
+                    <label for="mashroom">Mashroom</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="oats" value="oats">
+                    <label for="oats">Oats</label>
+                </p>
+            </fieldset>
+        </article>
+        <article>
+            <fieldset>
+                <legend>Favourite pets</legend>
+                <p>
+                <input type="checkbox" name="pets" id="dog" value="dog">
+                <label for="dog">Dog</label>
+                </p>
+                <p>
+                <input type="checkbox" name="pets" id="crow" value="crow">
+                <label for="crow">Crow</label>
+                </p>
+                <p>
+                <input type="checkbox" name="pets" id="raven" value="raven">
+                <label for="raven">Raven</label>
+                </p>
+                <p>
+                <input type="checkbox" name="pets" id="orca" value="orca">
+                <label for="orca">Orca</label>
+                </p>
+            </fieldset>
+        </article>
+        <article>
+            <fieldset>
+                <legend>
+                    Enter your Message
+                </legend>
+                <textarea name="message" placeholder="type your message here" cols="30" rows="10"></textarea>
+            </fieldset>
+        </article>
+        <button type="submit">Get</button>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">submit</button>
+        <button type="reset">reset</button>
+        </form>
+        <article>
+        <h2>My Favorite Video</h2>
+
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/wnVtSw5ImxE"
+        title="YouTube video player"
+        allowfullscreen>
+        </iframe>
+
+        </article>
+        <hr>
+        <article>
+            <audio controls width="300" preload="auto">
+                <source src="7years.m4a" type="audio/mp4">
+                your browser doesnt support this type of audio file
+            </audio>
+        </article>
+        <hr>
+        <article>
+            <video controls width="300">
+                <source src="audio.mkv" type="video/x-matroska">
+            </video>
+        </article>
+
+        </main>
+            <hr>
+        <footer>
+            <p>&it;&lt;&lt; &copy;<a href="aboutme.html">Karthik Kona</a>&gt;&gt;&gt;</p>
+            <p>
+                <a href="#">Bact to Top</a>
+            </p>
+        </footer>
+
+    </body>
+
+</html>

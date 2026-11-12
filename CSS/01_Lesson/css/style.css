@@ -1,0 +1,14 @@
+body{
+    font-size:18px;
+
+}
+p{
+    color:purple;
+}
+.gray{
+    color:gray;
+}
+.highlight{
+    text-transform: Upper;
+    background-color:gold;
+}
